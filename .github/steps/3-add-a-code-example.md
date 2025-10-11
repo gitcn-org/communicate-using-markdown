@@ -4,13 +4,13 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 3: Add a code example
+## Step 3: 添加代码块
 
-_Great job adding an image to the file :tada:_
+*图片已经成功添加，干得漂亮！ :tada:*
 
-Let's add some code blocks. Code blocks can render differently depending on the language.
+现在我们来加入代码块。不同语言的代码在渲染时会有不同的显示效果。
 
-### Example 1
+### 示例一
 
 <pre>
 ```
@@ -19,14 +19,14 @@ Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.gi
 ```
 </pre>
 
-#### How it looks
+#### 显示效果
 
 ```
 $ git init
 Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 
-### Example 2
+### 示例二
 
 <pre>
 ``` javascript
@@ -34,16 +34,17 @@ var myVar = "Hello, world!";
 ```
 </pre>
 
-#### How it looks
+#### 显示效果
 
 ```javascript
 var myVar = "Hello, world!";
 ```
 
-### :keyboard: Activity: Adding a code example
+### :keyboard: 实操环节
 
-1. As you did before, edit the file in this pull request.
-1. In the file, add the correct Markdown for a code example of your choice.
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 和之前一样，编辑这个 pull request 里的文件。
+2. 在文件里加入一个你选择的代码示例，使用正确的 Markdown 语法。
+3. 打开 **Preview** 标签查看格式是否正确。
+4. 提交修改（Commit）。
+5. 等大约 20 秒后刷新你当前查看的这个页面。
+   [GitHub Actions](https://docs.github.com/en/actions) 会自动跳转到下一步。

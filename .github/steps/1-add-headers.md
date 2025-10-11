@@ -6,19 +6,20 @@
   Encourage users to open new tabs for steps!
 -->
 
-## Step 1: Add headers
+## Step 1: 添加标题
 
-_Welcome to "Communicate using Markdown"! :wave:_
+_欢迎来到 "Communicate using Markdown" 课程! :wave:_
 
-**What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add a heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown in most places around GitHub:
+**什么是 _Markdown_？** Markdown 是 GitHub 使用的一种[轻量级文本标记语言](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。 
+你可以用它给文字添加标题、列表、**加粗**、_斜体_、表格以及其他样式。Markdown 可用在 GitHub 很多地方，包括：
 
-- Comments on [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), and [discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
-- Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
+- [Issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [Pull Requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), 和 [Discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions) 中的评论
+- 扩展名为 `.md` or `.markdown` 的文件
+- 通过 [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists) 分享代码或文本片段
 
-**What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
+**什么是 _标题_ ?** 标题是出现在某一部分开头的较大字号文字，和我们常用的 Word 类似一共分为六级。
 
-### Example
+### 语法示例
 
 ```md
 # This is an `<h1>` header, which is the largest
@@ -28,24 +29,24 @@ _Welcome to "Communicate using Markdown"! :wave:_
 ###### This is an `<h6>` header, which is the smallest
 ```
 
-#### How it looks
+#### 显示效果
 
-# This is an `<h1>` header, which is the largest
+# 这是一个 `<h1>` 一级标题, 字号最大
 
-## This is an `<h2>` header
+## 这是一个 `<h2>` 二级标题
 
-###### This is an `<h6>` header, which is the smallest
+###### 这是一个 `<h6>` 标题, 字号最小
 
-### :keyboard: Activity: Edit your file with headers
+### :keyboard: 实操环节: 在文件中添加标题
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Open the **pull requests** tab.
-1. Click **New pull request**, for the branches to compare, select `base: main` and `compare: start-markdown`.
-1. Click **Create pull request**.
-1. In this pull request, go to the **Files changed** tab. We made an empty file `index.md` for you.
-1. Select **Edit file** from the three dotted **...** menu in the upper right corner of the file view on `index.md`.
-1. On the **Edit file** tab, add a `#`, followed by a **space**, before any content you like to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
-1. Above your new content, click **Preview**.
-1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-1. Click **Commit changes**.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 打开一个新的浏览器标签页，方便一边操作一边阅读本教程。
+2. 进入 **pull requests** tab页。
+3. 点击 **New pull request**，在对比分支中选择 `base: main` 和 `compare: start-markdown`。
+4. 点击 **Create pull request**。
+5. 在这个 pull request 中，进入 **Files changed** tab。我们已经为你创建了一个空文件 `index.md`。
+6. 在 `index.md` 的右上角三点 **...** 菜单中选择 **Edit file**。
+7. 在 **Edit file** 页面，为任意内容前加上一个 `#` 和一个空格，创建一个 H1 标题。你也可以根据需要使用一到六个 `#` 字符加空格来添加其他级别的标题。
+8. 在你写好的内容上方点击 **Preview** 查看预览效果。
+9. 页面底部填写一条简洁、有意义的提交说明，描述你对文件的修改。
+10. 点击 **Commit changes**。
+11. 等待大约20秒，然后刷新当前课程页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动检测并进入下一步

@@ -7,9 +7,13 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Communicate using Markdown
+[English](https://github.com/skills/communicate-using-markdown) | 中文
 
-_Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
+> 本课程翻译自 Github Skills，全部课程请点击 [这里查看](https://www.github-zh.com/getting-started)
+
+# 使用 Markdown 沟通交流
+
+_Markdown 是一种轻量级纯文本标记语言。本课程我们将学习使用 Markdown 在 GitHub 上编写文档、发表评论。_
 
 </header>
 
@@ -21,23 +25,25 @@ _Organize ideas and collaborate using Markdown, a lightweight language for text 
 
 ## Welcome
 
-GitHub is about more than code. It’s a platform for software collaboration, and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests. This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
+GitHub 不仅仅是一个托管代码的地方，它是一个软件协作平台。凭借 Markdown 的轻量、易读易写的特性，我们在 GitHub 上用它来提出问题、发表评论、撰写文档等。
+通过 Markdown，我们可以很方便地添加标题、表格、代码块、图片和链接等元素，让内容更清晰丰富、层次分明。除了 GitHub 目前许多网站都广泛使用 Markdown，成为沟通与表达的首选语言。
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: Use Markdown to add lists, images, and links in a comment or text file.
-- **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub Pages site.
-- **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) course, first!
-- **How long**: This course takes less than one hour to complete.
+- **目标人群**: 初级开发者，GitHub 新用户和学生。
+- **学习内容**: 在评论或文件中使用 Markdown 添加列表、图片和链接。
+- **您将完成**：我们会修改一个纯文本文件，使用 Markdown 格式，你还可以把它作为自己 GitHub Pages 站点的起点。
+- **先决条件**：课程中会涉及 pull request 和文件编辑。如果你对这些还不熟悉，建议先学习 [GitHub 入门课程](https://github.com/skills/introduction-to-github)！
+- **学习时长**：不到一个小时
 
-In this course, you will:
 
-1. Add headers
-2. Add an image
-3. Add a code example
-4. Make a task list
-5. Merge your pull request
+在本课程中，你将完成：
 
-### How to start this course
+1. 添加标题
+2. 插入图片
+3. 添加代码示例
+4. 制作任务列表
+5. 合并你的 pull request
+
+### 如何开始课程
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
@@ -50,14 +56,14 @@ In this course, you will:
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=communicate-using-markdown&owner=%40me&name=skills-communicate-using-markdown&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=github-china&template_name=communicate-using-markdown&owner=%40me&name=skills-communicate-using-markdown&description=My+clone+repository&visibility=public)
 
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+1. 右键点击上方 **Start course** 按钮，选择新标签页中打开链接。
+2. 在新页面中根据系统提示新建一个仓库。
+   - 仓库名称、描述这些字段系统已经帮我们自动填充好了，您可以按需修改。
+   - 建议使用选择公开仓库，因为私有仓库有[GitHub Actions 分钟数限制](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)。
+   - 最后点击 Create repository 按钮
+3. 仓库创建完毕后，等待大约 20 秒（等待Action执行），然后刷新页面。注意是刷新您仓库的页面，不是本课程的页面。如果页面没有变化，请继续等待。然后按照 README 中的步骤一步步进行。
 
 <footer>
 

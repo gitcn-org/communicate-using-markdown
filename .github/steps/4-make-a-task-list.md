@@ -4,13 +4,14 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 4: Make a task list
+## Step 4: 创建任务列表
 
-_Great job adding a code example to the file :partying_face:_
+*代码示例已经添加好了，很棒！ :partying_face:*
 
-**What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
+**什么是任务列表（task list）？**
+任务列表(或TODO List)可以生成可勾选的复选框，非常适合用来跟踪 issue 或 pull request 的进度。如果你在 issue 或 pull request 的内容中加入任务列表，GitHub 会在列表页展示进度条。任务列表的语法格式非常严格，空格位置一定要写对，不然不会正确显示。
 
-### Example
+### 示例
 
 ```
 - [x] List syntax is required
@@ -18,18 +19,19 @@ _Great job adding a code example to the file :partying_face:_
 - [ ] This item is not complete
 ```
 
-#### How it looks
+#### 显示效果
 
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
+* [x] List syntax is required
+* [x] This item is complete
+* [ ] This item is not complete
 
-### :keyboard: Activity: Add a task list
+### :keyboard: 实操环节
 
-GitHub Actions went ahead and made a branch for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
+GitHub Actions 已经帮你创建了一个分支。你只需要在这个分支里的文件中继续编辑，我们会在你学习的过程中检查你的修改！
 
-1. Return to your pull request.
-1. Use Markdown to create a task list. Here is an example:
+1. 回到你的 pull request。
+
+2. 使用 Markdown 语法写一个任务列表。比如：
 
    ```md
    - [ ] Turn on GitHub Pages
@@ -37,8 +39,9 @@ GitHub Actions went ahead and made a branch for you. So you'll need to add to th
    - [ ] Introduce myself to the world
    ```
 
-   Remember, a task list starts with the syntax `- [ ]` and then the task list item. The formatting is specific!
+   记住，任务项必须以 `- [ ]` 开头，然后写任务内容。格式一定要准确！
 
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit the changes to the file.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+3. 用 **Preview** 查看 Markdown 显示是否正确。
+4. 提交文件修改（Commit）。
+5. 等大约 20 秒后刷新当前这个教学页面。
+   [GitHub Actions](https://docs.github.com/en/actions) 会自动进入下一步。

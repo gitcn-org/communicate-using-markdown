@@ -4,11 +4,11 @@
   Define terms and link to docs.github.com.
 -->
 
-## Step 2: Add an image
+## Step 2: 添加图片
 
-_Great job adding headers to the file :sparkles:_
+_干得漂亮！标题添加得很成功！ :sparkles:_
 
-Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
+接下来，我们来添加一张图片。下是添加图片的 Markdown 语法示例：
 
 ### Example
 
@@ -16,14 +16,16 @@ Let's add an image. Include descriptive text in the square brackets. This text i
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
 
-#### How it looks
+方括号里的文字是图片说明(alt-text)，用来帮助使用屏幕阅读器的人了解图片内容；如果网络不好导致图片加载失败，也会显示这段文字。下面是插入图片的语法示例。
+
+#### 预览效果
 
 <img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
 
-### :keyboard: Activity: Adding an image
+### :keyboard: 实操环节
 
-1. As you did before, edit the `index.md` file in this pull request.
-1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. 和上一步一样，编辑 Pull Request 中的 `index.md` 文件。
+2. 在文件中，添加你所选图片的正确 Markdown 语法。别忘了写上图片说明(alt-text)！
+3. 切换到 **Preview** 检查你的 Markdown 格式是否正确。
+4. 提交你的修改(Commit)。
+5. 等待大约20秒，然后刷新当前课程页面。[GitHub Actions](https://docs.github.com/en/actions) 会自动检测并进入下一步
